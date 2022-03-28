@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #f3f3f3;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.fixed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.fixed-elements {
+  background-color: #00bdff;
+  padding: 10px 15px;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.fixed-elements img {
+  width: 20px;
+  height: 20px;
+}
+
+.fixed-elements-phone img {
+  margin-right: 22px;
+}
+
+.fixed-elements-phone {
+  background-color: #ee1521;
+  padding: 3px 15px;
+  text-decoration: none;
+  color: #fff;
+  transform: translate(75.5%, 0);
+  transition: 0.3s ease;
+}
+
+.fixed-elements-phone:hover {
+  transform: translate(0, 0);
+}
+
+.main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.logo img {
+  float: left;
+  width: 370px;
+  height: auto;
+  padding-top: 22px;
+}
+
+.logo-2 img {
+  width: 140px;
+  height: auto;
+  padding-top: 22px;
+}
+
+.navbar {
+  margin-top: 50px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 22px 5px;
+  transition: 0.3s ease;
+  font-size: 12px;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.navbar ul li a:hover {
+  color: #939393;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.searchbar {
+  padding-left: 60px;
+}
+
+.searchbar input {
+  float: right;
+  padding: 2px;
+  border: none;
+  background-color: #f3f3f3;
+  width: 50px;
+  font-size: 12px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  outline: none;
+}
+
+.searchbar span {
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials img {
+  height: 17px;
+  padding: 0 8px;
+}
+
+.navbar-bottom {
+  background-color: #0080be;
+}
+
+.navbar-bottom ul {
+  list-style-type: none;
+  align-items: center;
+  height: 50px;
+  transition: 0.3s ease;
+}
+
+.navbar-bottom ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-weight: bold;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  line-height: 50px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+}
+
+#check {
+  display: none;
+}
+
+.stats-content-1 {
+  margin: 15px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stats-content-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flexbox-item {
+  width: 240px;
+  height: 160px;
+  margin: 10px 0 0 0;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flexbox-item-2 {
+  margin-top: 30px;
+}
+
+.flexbox-item a img {
+  height: 40px;
+  width: 40px;
+  padding-bottom: 10px;
+}
+
+.flexbox-text {
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+  font-family: "Noto Sans Georgian", sans-serif;
+  padding: 0 5px;
+}
+
+.flexbox-number {
+  margin-top: 5px;
+  font-size: 17px;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #0080be;
+}
+
+.flexbox-item-none {
+  display: none;
+}
+
+.georgian-map {
+  width: 870px;
+  margin: 30px 0 0 100px;
+}
+
+.georgian-map path {
+  fill: #eafff8;
+  stroke: #00bdff;
+  stroke-width: 2px;
+  transition: fill 0.3s;
+}
+
+.georgian-map path:hover {
+  fill: #b2ffff;
+}
+
+.stats-content-2-map {
+  display: flex;
+  flex-flow: row;
+}
+
+.info-border {
+  border: solid #e9e9e9 1px;
+  margin-top: 30px;
+}
+
+.info-container {
+  display: flex;
+  margin: 20px auto 0 auto;
+}
+
+.contact-info {
+  line-height: 35px;
+  padding-right: 60px;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+.info-content a {
+  text-decoration: none;
+  color: #555555;
+  margin-top: 25px;
+  transition: 0.3s ease;
+}
+
+.info-content-2 {
+  width: 200px;
+  margin: 0 20px;
+}
+
+.info-content a:hover {
+  color: #939393;
+}
+
+.info-content p {
+  color: #989898;
+}
+
+footer {
+  height: 65px;
+  background-color: #36394b;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+  margin: 20px 10px 0 0;
+}
+
+footer p {
+  color: #767989;
+  font-size: 11px;
+  display: flex;
+  margin: 20px auto;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+@media screen and (max-width: 1350px) {
+  .main {
+    max-width: 1100px;
+  }
+
+  .georgian-map {
+    width: 870px;
+    margin: -100px 0 0 100px;
+  }
+
+  .inflacia {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .main {
+    max-width: 1000px;
+  }
+
+  .navbar {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .main {
+    max-width: 80%;
+  }
+
+  .navbar {
+    max-width: 100%;
+    margin: 20px auto 10px auto;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .navbar-bottom ul a {
+    display: none;
+  }
+
+  #check:checked~ul {
+    height: 380px;
+    display: block;
+    line-height: 40px;
+  }
+
+  #check:checked~ul a {
+    display: block;
+  }
+
+  .navbar-bottom ul a {
+    font-size: 16px;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  .flexbox-item {
+    width: 350px;
+  }
+
+  .inflacia {
+    margin-top: 10px;
+  }
+
+  .stats-content-1 {
+    margin-top: 350px;
+  }
+
+  .georgian-map {
+    position: absolute;
+    margin-top: -1000px;
+    width: 600px;
+  }
+
+  .flexbox-item-none {
+    display: flex;
+  }
+
+  .flexbox-item-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 889px) {
+  .flexbox-item {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .georgian-map {
+    position: absolute;
+    margin: -1600px 5px 0 0;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .navbar {
+    max-width: 80%;
+    margin: 20px auto 10px auto;
+  }
+
+  .navbar li {
+    margin-bottom: 8px;
+  }
+
+  .logo-2 {
+    margin: 10px auto 0;
+  }
+
+  .stats-content-1 {
+    margin-top: 210px;
+  }
+
+  .georgian-map {
+    position: absolute;
+    margin: -1460px 0 0 0;
+    width: 70%;
+  }
+
+  .flexbox-item {
+    width: 100%;
+  }
+}
